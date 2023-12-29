@@ -1,0 +1,8 @@
+name: hello-world
+on: push
+jobs:
+  sample-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: step1
+        run: echo "test github cicd!"
